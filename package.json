@@ -1,0 +1,32 @@
+{
+  "name": "autonomous-ai-computer-science",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Clean engineering implementations of 21 foundational computer science algorithms and autonomous AI decision systems in TypeScript.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "tsx --test tests/**/*.test.ts",
+    "dev": "tsx src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": [
+    "artificial-intelligence",
+    "algorithms",
+    "minimax",
+    "q-learning",
+    "graph-search",
+    "constraint-satisfaction",
+    "bayesian-networks",
+    "neural-networks",
+    "transformer-attention",
+    "typescript"
+  ],
+  "author": "DyharL",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.4"
+  }
+}
