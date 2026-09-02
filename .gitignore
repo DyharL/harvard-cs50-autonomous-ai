@@ -4,3 +4,4 @@ dist/
 *.log
 .env
 .wrangler/
+__pycache__/
