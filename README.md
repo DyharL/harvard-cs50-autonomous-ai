@@ -2,10 +2,12 @@
 
 [![CI](https://github.com/DyharL/applied-ai-algorithms/actions/workflows/ci.yml/badge.svg)](https://github.com/DyharL/applied-ai-algorithms/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.5-3178c6.svg)](https://www.typescriptlang.org/)
+[![C](https://img.shields.io/badge/C-C11_Clang-00599c.svg)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![Python](https://img.shields.io/badge/Python-3.11+-3776ab.svg?logo=python&logoColor=white)](https://www.python.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.5-3178c6.svg?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-000?logo=cloudflare)](https://applied-ai-algorithms.pages.dev)
 
-Production-grade engineering implementations of 21 foundational computer science algorithms and autonomous artificial intelligence decision systems. Built with strict TypeScript compiler constraints, native testing via `node:test`, and edge runtime compatibility.
+Production-grade engineering implementations of 21 foundational computer science algorithms and autonomous artificial intelligence decision systems. Contains canonical source implementations in **C** (memory management, pointers, and bitwise manipulation), **Python** (search, logic, reinforcement learning, and transformers), and **TypeScript** (interactive Edge runtime).
 
 Live Interactive Showcase: [https://applied-ai-algorithms.pages.dev](https://applied-ai-algorithms.pages.dev)
 
