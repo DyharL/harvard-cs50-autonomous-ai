@@ -1,3 +1,12 @@
+# Vendored folders (excluded from language statistics)
+src/** linguist-vendored
 functions/** linguist-vendored
 dist/** linguist-vendored
-public/** linguist-documentation
+public/** linguist-vendored
+package.json linguist-vendored
+package-lock.json linguist-vendored
+tsconfig.json linguist-vendored
+
+# Canonical languages to detect
+c/** linguist-detectable=true
+python/** linguist-detectable=true
