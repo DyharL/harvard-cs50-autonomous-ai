@@ -1,12 +1,10 @@
-# Vendored folders (excluded from language statistics)
-src/** linguist-vendored
-functions/** linguist-vendored
-dist/** linguist-vendored
-public/** linguist-vendored
-package.json linguist-vendored
-package-lock.json linguist-vendored
-tsconfig.json linguist-vendored
+# Exclude all TypeScript and Web UI build files from repository language stats
+*.ts linguist-vendored
+*.js linguist-vendored
+*.html linguist-vendored
+*.css linguist-vendored
 
-# Canonical languages to detect
-c/** linguist-detectable=true
-python/** linguist-detectable=true
+# Explicitly detect canonical C and Python
+*.c linguist-detectable=true
+*.py linguist-detectable=true
+Makefile linguist-detectable=false
