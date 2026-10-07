@@ -7,7 +7,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.5-3178c6.svg?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-000?logo=cloudflare)](https://applied-ai-algorithms.pages.dev)
 
-Production-grade engineering implementations of 21 foundational computer science algorithms and autonomous artificial intelligence decision systems. Contains canonical source implementations in **C** (memory management, pointers, and bitwise manipulation), **Python** (search, logic, reinforcement learning, and transformers), and **TypeScript** (interactive Edge runtime).
+Production-grade engineering implementations of 21 foundational computer science algorithms and autonomous artificial intelligence decision systems. Contains canonical source implementations in **C** (`c/`), **Python** (`python/`), and **TypeScript** (Edge runtime).
 
 Live Interactive Showcase: [https://applied-ai-algorithms.pages.dev](https://applied-ai-algorithms.pages.dev)
 
