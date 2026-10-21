@@ -1,18 +1,29 @@
-# Ignore TypeScript, build outputs, and web assets from statistics
-src/** linguist-vendored=true
-functions/** linguist-vendored=true
-dist/** linguist-vendored=true
-public/** linguist-vendored=true
-**/*.ts linguist-detectable=false
-**/*.js linguist-detectable=false
-**/*.html linguist-detectable=false
-**/*.css linguist-detectable=false
-package.json linguist-vendored=true
-package-lock.json linguist-vendored=true
-tsconfig.json linguist-vendored=true
+# Ignore web/edge runtime, playground UI, and build outputs from statistics
+src/** linguist-vendored
+src/** linguist-documentation
+functions/** linguist-vendored
+functions/** linguist-documentation
+dist/** linguist-vendored
+dist/** linguist-documentation
+public/** linguist-vendored
+public/** linguist-documentation
+tests/** linguist-vendored
+tests/** linguist-documentation
+*.ts linguist-vendored
+*.ts -linguist-detectable
+*.js linguist-vendored
+*.js -linguist-detectable
+*.html linguist-vendored
+*.html -linguist-detectable
+*.css linguist-vendored
+*.css -linguist-detectable
+package.json linguist-vendored
+package-lock.json linguist-vendored
+tsconfig.json linguist-vendored
 
-# Canonical languages
-c/** linguist-detectable=true
-python/** linguist-detectable=true
-**/*.c linguist-detectable=true
-**/*.py linguist-detectable=true
+# Canonical curriculum languages
+c/** linguist-detectable
+python/** linguist-detectable
+*.c linguist-detectable
+*.py linguist-detectable
+Makefile -linguist-detectable
