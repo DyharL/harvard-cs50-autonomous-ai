@@ -26,7 +26,6 @@ c/** linguist-detectable
 python/** linguist-detectable
 *.c linguist-detectable
 *.py linguist-detectable
-Makefile -linguist-detectable
 
 # Tout le TS/JS/HTML/CSS et dossiers générés sont exclus des stats
 **/*.ts linguist-vendored=true
