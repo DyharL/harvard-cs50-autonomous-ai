@@ -1,5 +1,8 @@
 # Harvard CS50x & CS50AI Algorithms Suite
 
+**Harvard Online CS50x & CS50AI: 2026–2027 (In Progress).**
+
+
 Implementations of the 21 computer science algorithms and autonomous artificial intelligence decision systems from Harvard's CS50x and CS50AI curricula.
 
 Contains canonical source implementations in **C** (`c/`), **Python** (`python/`), and an edge interactive playground.
